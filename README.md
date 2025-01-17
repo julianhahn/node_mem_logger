@@ -3,10 +3,13 @@ you'll find the release under target/x86_64-unknown-linux-musl/release/node_mem_
 
 
 Default Values:
--p = 5 Prozesse pro Log
--l = 10 Log-Einträge werden behalten
--s = 10 Sekunden zwischen Updates
+```
+-p = 5 processes per log
+-l = 10 log-entries kept in rotational log
+-s = 10 seconds between logs 
+```
 
+Example Output
 ```
 === Node.js Processes Check: 2025-01-17 18:49:37 ===
 
